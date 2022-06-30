@@ -1,0 +1,81 @@
+body {
+	background-color: lightgrey;
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+div.middle {
+	display: flex;
+	flex-direction: row;
+	min-height: 80vh;
+}
+
+div.greenBox {
+	background-color: green;
+	height: 10vh;
+	min-height: 50px;
+}
+
+div.top {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: darkblue;
+	transition: border-radius 0.5s, color 0.2s;
+}
+
+div.top:hover {
+	border-radius: 25px;
+	color: darkorchid;
+	transition: border-radius 0.5s, color 0.2s;
+}
+
+div.bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: brown;
+}
+
+div.purpleBox {
+	background-color: purple;
+	padding: 3px;
+	transition: 0.2s;
+}
+
+div.purpleBox:hover {
+	background-color: red;
+	transition: 0.2s;
+}
+
+div.left {
+	display: flex;
+	justify-content: flex-end;
+	font-style: italic;
+	color: aliceblue;
+	width: 20vw;
+}
+
+div.right {
+	font-style: italic;
+	color: lightyellow;
+	width: 10vw;
+}
+
+div.centralBox {
+	background-color: cyan;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	width: 70vw;
+}
