@@ -54,7 +54,7 @@ div.leftBox{
 }
 
 div.leftBox:hover{
-	background-color: tomato;
+	background-color: cyan;
 	transition: 0.2s;
 }
 
