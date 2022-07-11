@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   padding: 0;
   background-image: url("img/Background.jpg");
@@ -20,7 +20,8 @@ nav {
 }
 
 nav a {
-  flex-basis: 15%; /* dimensione singoli robi */
+  flex-basis: 15%;
+  /* dimensione singoli robi */
   text-align: center;
   text-decoration: none;
   padding: 10px;
@@ -29,19 +30,19 @@ nav a {
   color: white;
 }
 
-nav a:hover{
+nav a:hover {
   background-color: coral;
   border-radius: 15px;
   transition: background-color 1s;
 }
 
-main{
+main {
   background-color: rgba(255, 255, 255, 0.7);
   width: 70%;
   margin: auto;
 }
 
-div.headimage{
+div.headimage {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -55,7 +56,7 @@ div.headimage img {
   height: 15vw;
 }
 
-div.headimageagc{
+div.headimageagc {
   display: flex;
   justify-content: center;
   width: 80%;
@@ -70,7 +71,7 @@ div.headimageagc img {
   height: 100%;
 }
 
-div.headimagescosplay{
+div.headimagescosplay {
   padding-top: 3%;
   padding-left: 5%;
   padding-right: 5%;
@@ -82,12 +83,12 @@ div.headimagescosplay{
   justify-content: space-evenly;
 }
 
-div.headimagescosplay img{
+div.headimagescosplay img {
   width: 15vw;
   height: 15vw;
 }
 
-.text{
+.text {
   padding-bottom: 15px;
   padding-left: 10%;
   padding-right: 10%;
@@ -111,19 +112,19 @@ div.text a:hover {
   text-decoration: underline;
 }
 
-div.fourimages{
+div.fourimages {
   padding-left: 5%;
   padding-right: 5%;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
   padding: 50 px;
-  padding-bottom; 60px;
+  padding-bottom: 60px;
   align-items: center;
   justify-content: space-evenly;
 }
 
-div.fourimages div.link-image{
+div.fourimages div.link-image {
   position: relative;
   flex-basis: 20%;
   margin: 2%;
@@ -133,20 +134,20 @@ div.fourimages div.link-image{
   display: block;
 }
 
-div.fourimages img{
+div.fourimages img {
   width: 20vw;
   height: 15vw;
   border-radius: 40%;
-  filter:blur(0px);
+  filter: blur(0px);
   transition: filter 1s;
 }
 
-div.fourimages div.link-image:hover img{
-  filter:blur(3px);
+div.fourimages div.link-image:hover img {
+  filter: blur(3px);
   transition: filter 1s
 }
 
-div.fourimages div.over{
+div.fourimages div.over {
   position: absolute;
   display: flex;
   width: 20vw;
@@ -163,15 +164,15 @@ div.fourimages div.over{
   font-size: 2em;
   color: white;
   font-weight: bold;
-  text-shadow: 0px 1px  0px #000000, 1px 0px  0px #000000, 0px -1px  0px #000000, -1px 0px  0px #000000;
+  text-shadow: 0px 1px 0px #000000, 1px 0px 0px #000000, 0px -1px 0px #000000, -1px 0px 0px #000000;
 }
 
-div.fourimages div.over:hover{
+div.fourimages div.over:hover {
   opacity: 1;
   transition: opacity 0.5s
 }
 
-div.narration{
+div.narration {
   display: flex;
   flex-flow: row wrap;
   width: 80%;
@@ -182,7 +183,7 @@ div.narration{
   padding-bottom: 1%;
 }
 
-div.narration img{
+div.narration img {
   padding-bottom: 1%;
   width: 100%;
   height: auto;
@@ -190,7 +191,7 @@ div.narration img{
   border-top-right-radius: 25px;
 }
 
-div.narration .text{
+div.narration .text {
   height: 350px;
   overflow: scroll;
 }
