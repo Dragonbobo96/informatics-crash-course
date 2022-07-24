@@ -161,3 +161,34 @@ div.contenitore {
 	align-items: center;
 	justify-content: space-around;
 }
+
+div.pagina {
+	display: flex;
+	flex-direction: row;
+}
+
+div.vuoto1 {
+	display: flex;
+	justify-content: flex-start;
+	width: 70vw;
+}
+
+div.vuoto2 {
+	display: flex;
+	box-sizing: content-box;
+	width: 70vw;
+
+}
+
+div.contenitore1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	background-color: aquamarine;
+}
+
+div.scroll {
+	font-size: 1.3rem;
+	overflow: scroll;
+}
