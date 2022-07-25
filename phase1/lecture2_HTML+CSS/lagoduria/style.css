@@ -86,6 +86,10 @@ div.immagine img {
 	object-fit: cover;
 }
 
+div.top img {
+	object-position: top;
+}
+
 div.titolo {
 	position: absolute;
 	display: flex;
@@ -122,6 +126,11 @@ div.sottotitolo {
 	align-self: center;
 	background-color: aqua;
 	font-size: 1.5rem;
+}
+
+div.prologo {
+	display: flex;
+	padding: 10px 30px;
 }
 
 div.testo {
@@ -164,7 +173,8 @@ div.contenitore {
 
 div.pagina {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	padding: 10px 80px;
 }
 
 div.vuoto1 {
@@ -184,11 +194,38 @@ div.contenitore1 {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	background-color: aquamarine;
+	padding: 15px 30px;
+}
+
+div.contenitore2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: aquamarine;
+	padding: 15px 30px;
 }
 
 div.scroll {
+	text-align: center;
 	font-size: 1.3rem;
-	overflow: scroll;
+	overflow: auto;
+	max-height: 30vh;
+	width: 50%;
+	overflow-x: hidden;
+	background-color: brown;
+}
+
+div.scroll1 {
+	font-size: 1.3rem;
+	overflow: auto;
+	max-height: 30vh;
+	overflow-x: hidden;
+	background-color: brown;
+}
+
+div.contenitore2 div.gif {
+	margin-bottom: 10px;
 }
